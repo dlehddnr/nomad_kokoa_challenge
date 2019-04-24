@@ -31,6 +31,25 @@
 - relatibe : 부모 박스 설정.
 - absolute : html 상에서 부모에 해당하는 박스를 찾아서 이에 상응해서 포지션이 결정.
 
+### Fluid layouts with Flexbox
+- 플렉스는 부모클래스에만 적용하면 자식컨텐츠에 적용된다.
+- justify-content : 수평, align-items : 수직
+- flex direction을 column으로 주면 두개가 반대로 된다.
+- flex : wrap 을 사용하면 폭을 유지하기 위해 밑으로 떨어뜨린다. 
+- flex는 default로 no-wrap! 그래서 창을 줄이면 폭을 줄인다.
+
+### pseudo-selector
+- without class name or id, 가상셀렉터임.
+- input[type="submit"], input[required = "required"] 같은걸 사용
+- :first-child, :nth-child(), :last-child 같은걸로 순서로 선택 할 수 있다.
+- TIP : nth-child(2n) 이라고 하면 매 2의 배수 상자를 선택함 (ex 3n 4n  다 가능)
+
+### Elements States with CSS
+- active, focus, visited, hover
+- :hover    =>  박스위에 올려지면 효과 나타남
+- :active   =>  클릭할 때 효과 나타남
+- :focus    =>  탭으로 focus되면 효과 나타남 or Somebody selects or activates a form or link
+- :focus    =>  input에서 많이쓰고 내가 글을 쓰고있을 때 작동한다.
 
 
 # 오답노트
@@ -38,3 +57,9 @@
 - Q . Can I create my own meta tag?
 - [x] A . Yes, meta tags are just information so I can put whatever I want 
   
+## Day 3
+- Q . What is the order for the border shortcut property?
+-  [x] A . <border-style> <color> <border-width>
+
+- Q . 'position:absolute' looks for the closest 'relative' parent ?
+- A . True
