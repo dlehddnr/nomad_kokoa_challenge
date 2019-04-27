@@ -60,10 +60,10 @@ html {
 }
 
 @keyframes myAnim {
-  from {
+  0% {
     transform: none;
   }
-  to {
+  50% {
     transform: rotate(1turn);
   }
 }
