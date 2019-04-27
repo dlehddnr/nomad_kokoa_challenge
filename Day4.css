@@ -1,0 +1,14 @@
+button {
+  height: 170px;
+  width: 170px;
+  background: no-repeat
+    url("https://avatars0.githubusercontent.com/u/29245056?s=200&v=4");
+  transition: all 1s ease-in-out;
+}
+
+button:hover {
+  transform: rotate(100deg) scale(0.5);
+  border: 5px solid red;
+  border-radius: 5px;
+  box-shadow: 5px 5px 20px 20px blue;
+}

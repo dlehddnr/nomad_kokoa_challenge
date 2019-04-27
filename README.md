@@ -51,6 +51,25 @@
 - :focus    =>  탭으로 focus되면 효과 나타남 or Somebody selects or activates a form or link
 - :focus    =>  input에서 많이쓰고 내가 글을 쓰고있을 때 작동한다.
 
+### Transition
+- 이동, 변경 을 멋지게 보여주는 효과.
+- 트랜지션 : 무엇변경, 시간설정, 애니메이션설정
+- 한개이상의 설정값을 바꾸고 싶다면 무엇변경 칸에 all 로 적는다.
+- 트랜지션은 active, focus, visited, hover 가 적용될때 실행된다.
+
+### Transformations
+- transformations 는 elements들이 변하는 효과이다.
+- rotate, scale 등등이있다.
+
+### Animation
+- @keyframes 으로 css파일에 애니메이션인것을 알려줄수있다.
+- 구조 : @keyframes 이름 { from{} to{}}
+- from to 대신 % 로 여러단계로 구분가능하다.
+
+### Media Queries
+- 브라우저가 큰지 작은지 알아내는 방법.
+- 예시 : @media screen and (최소) - (최대){}
+  
 
 # 오답노트
 ## Day 2
@@ -63,3 +82,23 @@
 
 - Q . 'position:absolute' looks for the closest 'relative' parent ?
 - A . True
+
+## Day 4
+- Q . With flex-direction:column, align-items moves the items ?
+-  [x] A . Horizontally
+
+- Q . :focus happens on inputs when ?
+-  [x] A . I'm writing on them
+
+## Day 5
+- Q . What is the correct way of writing a transition property?
+-  [x] A . transition: margin-right 4s ease-in-out;
+
+- Q .  I can rotate elements using 'deg'?
+-  [x] A . True
+
+- Q .  I can rotate elements using 'turn'?
+-  [x] A . True
+
+- Q .  I can only transform blocks but not inlines 
+-  [x] A . False
